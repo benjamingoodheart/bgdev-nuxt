@@ -2,9 +2,9 @@ import { UAvatar, USkeleton, UHorizontalNavigation, UDropdown } from '../.nuxt/c
 <script setup lang="ts">
 import {useMediaQuery} from '@vueuse/core'
 const isLargeScreen = useMediaQuery('(min-width: 1024px)')
-const links = [{label: 'portfolio'}, {label: 'resume'}, {label:'currently'}, {label:'contact'}]
+const links = [{label: 'portfolio', to:'/'}, {label: 'resume', to:'/resume'}, {label:'currently', to:'/currently'}, {label:'contact', to:'contact'}]
 const dropdownItems = [[
-{label: 'portfolio'}, {label: 'resume'}, {label:'currently'}, {label:'contact'}
+{label: 'portfolio', to:'/'}, {label: 'resume', to:'/resume'}, {label:'currently', to:'/currently'}, {label:'contact', to:'/contact'}
 ]]
 
 
@@ -17,7 +17,7 @@ const dropdownItems = [[
             <USkeleton class="h-8 w-8" v-if="!isLargeScreen"/>
         </div>
         <div class="my-auto col-span-4">
-           <UButton  variant="link" class="dark:text-gray-100"><h1 class="text-xl">benjamin.goodheart.dev</h1></UButton>
+           <UButton  variant="link" class="dark:text-gray-100" to="/"><h1 class="text-xl">benjamin.goodheart.dev</h1></UButton>
         </div>
         <div class="justify-self-end">
             <UHorizontalNavigation :links="links" v-if="isLargeScreen"></UHorizontalNavigation>

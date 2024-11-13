@@ -7,6 +7,14 @@ const items = [{
 }, {
     slot:'data',
     label: 'Project #2',
+    desc:'lorem ipsum',
+    stack: ['Java']
+},{
+    slot:'data',
+    label:'Project #3',
+    desc: 'blah blah',
+    stack:['Fast API'],
+    demo: 'placeholder'
 }]
 </script>
 <template>
@@ -27,7 +35,7 @@ const items = [{
                     <h1 class="text-xl my-2">
                         Stack: </h1>
                         <ul>
-                            <li v-for="s in item.stack"><Icon name="ant-design:caret-right-filled" />{{ s }}</li>
+                            <li v-for="s in item.stack"><Icon name="mdi:square-medium" class="my-auto" size=".8em"/>{{ s }}</li>
                         </ul>
                     <h1 class="text-xl my-2">Demo</h1>
                 </div>
