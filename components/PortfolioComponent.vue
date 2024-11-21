@@ -1,20 +1,28 @@
 <script setup>
 const items = [{
     slot: 'data',
-    label: 'Project #1',
-    desc: 'lorem ipsum whatever',
-    stack: ['Vue.js', 'node.js'],
+    label: 'PDF Xtractor',
+    desc: 'CLI utility to easy extract pdf tables contained within. essentially a pdf plumber cli wrapper ',
+    stack: ['Python', 'pdfplumber', 'pandas'],
+    icons: ['material-symbols:picture-as-pdf-outline','svg-spinners:3-dots-fade','pixelarticons:table' ],
+    link: 'https://github.com/benjamingoodheart/xtractor'
+
 }, {
     slot:'data',
-    label: 'Project #2',
-    desc:'lorem ipsum',
-    stack: ['Java']
+    label: '.csv->db Daemon',
+    desc:'A client wanted to simulate drafting fantasy athletes using pre-existing data and a database, putting one row from the csv into the corresponding table once a day for a year. I wrote a script that achieved this. ',
+    stack: ['Python', 'Pandas', 'numpy'],
+    demo: '/demos/csvdaemon.gif',
+    icons: ['material-symbols:csv-outline-sharp','material-symbols:line-end-arrow-outline-rounded','material-symbols:database-outline'],
+    link:'https://github.com/benjamingoodheart/stats-thru-year-sim'
 },{
     slot:'data',
-    label:'Project #3',
-    desc: 'blah blah',
-    stack:['Fast API'],
-    demo: 'placeholder'
+    label:'Backgronym Generator',
+    desc: 'The goal of this project was to create a simple CLI tool to help me come up with dummy names for projects. Additionally, it gives the definition for the backgroynm that is generated. ',
+    stack:['Node.js', 'axios'],
+    demo: "/demos/backgronym.gif",
+    icons: ['material-symbols:dictionary-outline-rounded', 'tabler:arrows-random', 'mdi:generator-stationary'],
+    link:'https://github.com/benjamingoodheart/backgronym-generator'
 }]
 </script>
 <template>
@@ -24,8 +32,8 @@ const items = [{
                 <template #header>
                     <h1 class="text-xl">{{ item.label }}</h1>
                 </template>
-                <div class="min-h-20 bg-primary-400 text-center">
-                    <h1 class="text-white">IMAGE</h1>
+                <div class="bg-primary-400 text-center min-h-10">
+                   <span v-for="icon in item.icons" ><Icon :name="icon" class="mt-3"/></span> 
                 </div>
                 <UDivider class="my-4"/>
                 <div>
@@ -38,6 +46,12 @@ const items = [{
                             <li v-for="s in item.stack"><Icon name="mdi:square-medium" class="my-auto" size=".8em"/>{{ s }}</li>
                         </ul>
                     <h1 class="text-xl my-2">Demo</h1>
+                    <div class="shad">
+                    <img :src="item.demo" style="width:50vw; box-shadow: .3vw .3vh .3vw;" class="mx-auto my-3 rounded-xl"></img>
+                    </div>
+                    <div v-if="item.link" class="text-center">
+                        <UButton size="2xs" icon="mingcute:github-line" :to="item.link" target="_blank">View On Github</UButton>
+                    </div>
                 </div>
             </UCard>
         </template>

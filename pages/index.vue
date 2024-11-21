@@ -1,7 +1,7 @@
 
 <script setup></script>
 <template>
-    <UContainer>
+    <UContainer class="mb-5">
     <PortfolioComponent/>
 </UContainer>
 </template>
