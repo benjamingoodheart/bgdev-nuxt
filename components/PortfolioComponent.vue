@@ -32,8 +32,8 @@ const items = [{
                 <template #header>
                     <h1 class="text-xl">{{ item.label }}</h1>
                 </template>
-                <div class="bg-primary-400 text-center min-h-10">
-                   <span v-for="icon in item.icons" ><Icon :name="icon" class="mt-3"/></span> 
+                <div class="bg-primary-400 dark:bg-slate-700 text-center min-h-10">
+                   <span v-for="icon in item.icons" ><Icon :name="icon" class="mt-3 mx-1"/></span> 
                 </div>
                 <UDivider class="my-4"/>
                 <div>
@@ -50,10 +50,13 @@ const items = [{
                     <img :src="item.demo" style="width:50vw; box-shadow: .3vw .3vh .3vw;" class="mx-auto my-3 rounded-xl"></img>
                     </div>
                     <div v-if="item.link" class="text-center">
-                        <UButton size="2xs" icon="mingcute:github-line" :to="item.link" target="_blank">View On Github</UButton>
+                        <UButton size="2xs" icon="mingcute:github-line" class="git-btn dark:bg-slate-500 hover:dark:bg-slate-700 dark:text-white" :to="item.link" target="_blank">View On Github</UButton>
                     </div>
                 </div>
             </UCard>
         </template>
     </UTabs>
 </template>
+<style scoped>
+
+</style>

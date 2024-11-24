@@ -5,3 +5,5 @@
     <PortfolioComponent/>
 </UContainer>
 </template>
+<style>
+</style>
