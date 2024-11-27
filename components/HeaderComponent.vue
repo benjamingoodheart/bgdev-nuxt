@@ -11,7 +11,7 @@ const dropdownItems = [[
 <template>
     <UContainer>
     <div class="grid grid-cols-6 md:grid-cols-6 border-2 border-primary-500 dark:border-0 dark:bg-gray-500 rounded-xl my-5 py-2 px-2">
-        <div class="text-green-200 my-auto bg-slate-300">    
+        <div class="text-green-200 my-auto">    
             <UAvatar size="md" src="/avatar.jpg" class="shadow-md"></UAvatar>
         </div>
         <div class="my-auto col-span-2">
