@@ -9,6 +9,8 @@ description: What I'm currently up to
 
 *Machine Learning with Python Cookbook, 2nd edition* by Gallatin & Albon
 
+*Essays and Aphorisms* by Arthurt Schopenhauer
+
 *A Brief History of Ireland* by Richard Kellen
 <br><br>
 
@@ -19,8 +21,11 @@ Mario Kart 8
 Warhammer 40k: Dawn of War
 
 Magic The Gathering (Limited & Commander)
+
+Age Of Empires II HD Edition (2013)
 <br><br>
 # 🎵 **LISTENING TO**
+
 ---
 *Mm Food 20th Anniversary Edition* by MF Doom
 

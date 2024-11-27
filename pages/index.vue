@@ -1,7 +1,7 @@
 
 <script setup>
 useSeoMeta({
-  title:'B.G.D.',
+  title:'portfolio',
   ogTitle: 'benjamin goodheart development'
 })</script>
 <template>

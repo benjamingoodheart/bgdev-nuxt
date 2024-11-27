@@ -4,10 +4,13 @@ const resumeRef = useTemplateRef('resume')
 onMounted(()=>{
     resumeRef.value.focus()
 })
+useSeoMeta({
+  title:'Résumé',
+  ogTitle: 'benjamin goodheart development'
+})
 </script>
 <template>
 <UContainer>
- 
     <embed  src="resume-nov2024.pdf" width="80%" height="900vh" class="mx-auto my-resume" ref="resume"/>
 </UContainer>
 </template>

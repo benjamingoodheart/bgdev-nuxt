@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title:'Contact | B.G.D.',
+  title:'contact',
   ogTitle: 'benjamin goodheart development'
 })
 const submitted : bool =  ref(false)
