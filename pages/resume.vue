@@ -7,7 +7,7 @@ onMounted(()=>{
 </script>
 <template>
 <UContainer>
-    <ContentDoc/>
+ 
     <embed  src="resume-nov2024.pdf" width="80%" height="900vh" class="mx-auto my-resume" ref="resume"/>
 </UContainer>
 </template>

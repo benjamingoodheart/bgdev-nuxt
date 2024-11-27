@@ -1,7 +1,8 @@
 <script setup lang="ts">
-useSeoMeta({
-  title:'benjamin goodheart developement',
-  ogTitle: 'benjamin goodheart development'
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} | bgd` : 'bgd';
+  }
 })
 </script>
 <template>

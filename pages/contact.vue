@@ -13,7 +13,7 @@ const handleClick = ()=>{
     <div class="grid md:grid-cols-4">
     <div></div>
     <UCard class="col-span-2">
-      <p class="text-lg">You can find me on <UButton href="https://github.com/benjamingoodheart" class="hover:text-primary-400" size="xs" variant="outline" icon="mingcute:github-line" target="_blank">Github</UButton> and <UButton href="https://www.linkedin.com/in/bengoodheart/" class="hover:text-primary-300 mr-1" variant="outline" size="xs" icon="mingcute:linkedin-line" target="_blank">LinkedIn</UButton>.</p> 
+      <p class="text-lg">You can find me on <UButton href="https://github.com/benjamingoodheart" size="xs" variant="outline" icon="mingcute:github-line" target="_blank">Github</UButton> and <UButton href="https://www.linkedin.com/in/bengoodheart/" class="hover:text-primary-300" variant="outline" size="xs" icon="tabler:brand-linkedin" target="_blank">LinkedIn</UButton>.</p> 
     
       <div class="container" v-if="!submitted">
         <p>You can also send me a message using the form below:</p>

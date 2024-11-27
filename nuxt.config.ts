@@ -9,5 +9,11 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxtjs/seo',
     '@nuxt/fonts'
-  ]
+  ],
+  app:{
+    head: {
+    titleTemplate(titleChunk) {
+      return titleChunk ? titleChunk : pkg.name
+    }
+  }}
 })
