@@ -5,7 +5,7 @@ onMounted(()=>{
     resumeRef.value.focus()
 })
 useSeoMeta({
-  title:'Résumé',
+  title:'résumé',
   ogTitle: 'benjamin goodheart development'
 })
 </script>

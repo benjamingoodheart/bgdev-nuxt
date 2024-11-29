@@ -2,7 +2,7 @@
 const {data} = await useAsyncData('currently', () => queryContent('/currently').findOne())
 console.log(data)
 useSeoMeta({
-  title:'Currently...',
+  title:'currently...',
   ogTitle: 'benjamin goodheart development'
 })
 </script>
