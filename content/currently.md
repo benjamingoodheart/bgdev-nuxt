@@ -9,7 +9,7 @@ description: What I'm currently up to
 
 *Machine Learning with Python Cookbook, 2nd edition* by Gallatin & Albon
 
-*Essays and Aphorisms* by Arthurt Schopenhauer
+*Essays and Aphorisms* by Arthur Schopenhauer
 
 *A Brief History of Ireland* by Richard Kellen
 <br><br>
@@ -30,3 +30,5 @@ Age Of Empires II HD Edition (2013)
 *Mm Food 20th Anniversary Edition* by MF Doom
 
 *The Crying Out Of Things* By The Body
+
+*Gucci Gambinos * by Mickey Diamond & Big Ghost LTD

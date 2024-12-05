@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/ui',
     '@nuxtjs/seo',
-    '@nuxt/fonts'
   ],
   app:{
     head: {
