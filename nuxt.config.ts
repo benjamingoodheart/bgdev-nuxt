@@ -8,7 +8,11 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/ui',
     '@nuxtjs/seo',
+    'nuxt-gtag'
   ],
+  gtag: {
+    id: 'G-Z4EF9VBTX6'
+  },
   app:{
     head: {
     titleTemplate(titleChunk) {

@@ -11,6 +11,6 @@ useSeoMeta({
 </script>
 <template>
 <UContainer>
-    <embed  src="resume-dec2024.pdf" width="80%" height="900vh" class="mx-auto my-resume" ref="resume"/>
+    <embed src="resume-dec2024.pdf" width="80%" height="900vh" class="mx-auto my-resume" ref="resume"/>
 </UContainer>
 </template>

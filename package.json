@@ -16,6 +16,7 @@
     "@nuxt/ui": "^2.18.7",
     "@nuxtjs/seo": "^2.0.0-rc.23",
     "nuxt": "^3.13.2",
+    "nuxt-gtag": "^3.0.2",
     "vue": "latest",
     "vue-router": "latest"
   },
