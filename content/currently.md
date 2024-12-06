@@ -1,5 +1,5 @@
 ---
-title: Currently...
+title: currently...
 description: What I'm currently up to
 ---
 
@@ -31,4 +31,4 @@ Age Of Empires II HD Edition (2013)
 
 *The Crying Out Of Things* By The Body
 
-*Gucci Gambinos * by Mickey Diamond & Big Ghost LTD
+*Gucci Gambinos* by Mickey Diamond & Big Ghost LTD

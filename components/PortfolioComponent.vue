@@ -2,7 +2,7 @@
 const items = [{
     slot: 'data',
     label: 'PDF Xtractor',
-    desc: 'CLI utility to easy extract pdf tables contained within. essentially a pdf plumber cli wrapper ',
+    desc: 'CLI utility to easy extract pdf tables contained within.',
     stack: ['Python', 'pdfplumber', 'pandas'],
     icons: ['material-symbols:picture-as-pdf-outline','svg-spinners:3-dots-fade','pixelarticons:table' ],
     link: 'https://github.com/benjamingoodheart/xtractor',
