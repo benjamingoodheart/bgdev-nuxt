@@ -1,6 +1,5 @@
 <script setup lang="ts">
 const {data} = await useAsyncData('currently', () => queryContent('/currently').findOne())
-console.log(data)
 useSeoMeta({
   title:'currently...',
   ogTitle: 'benjamin goodheart development'
