@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {useMediaQuery} from '@vueuse/core'
 const isLargeScreen = useMediaQuery('(min-width: 1024px)')
-const links = [{label: 'portfolio', to:'/'}, {label: 'résume', to:'/resume'}, {label:'currently', to:'/currently'}, {label:'contact', to:'contact'}]
+const links = [{label: 'portfolio', to:'/'}, {label: 'résumé', to:'/resume'}, {label:'currently', to:'/currently'}, {label:'contact', to:'contact'}]
 const dropdownItems = [[
 {label: 'portfolio', to:'/'}, {label: 'résumé', to:'/resume'}, {label:'currently', to:'/currently'}, {label:'contact', to:'/contact'}
 ]]
