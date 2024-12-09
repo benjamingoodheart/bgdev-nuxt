@@ -24,6 +24,14 @@ const items = [{
     demo: "/demos/backgronym.gif",
     icons: ['material-symbols:dictionary-outline-rounded', 'tabler:arrows-random', 'mdi:generator-stationary'],
     link:'https://github.com/benjamingoodheart/backgronym-generator'
+},
+{
+    slot:'data',
+    label: 'My Portfolio Website',
+    desc: 'I wanted to showcase my past work and at the same time learn a new framework (Nuxt).',
+    stack:['Nuxt.js', 'Vue', 'AWS Amplify', 'Tailwind CSS'],
+    icons:['mingcute:code-line','carbon:portfolio', 'mingcute:layout-5-line'],
+    link:['#']
 }]
 </script>
 <template>
@@ -46,7 +54,7 @@ const items = [{
                         <ul>
                             <li v-for="s in item.stack"><Icon name="mdi:square-medium" class="my-auto" size=".8em"/>{{ s }}</li>
                         </ul>
-                    <h1 class="text-xl my-2">Demo</h1>
+                    <h1 class="text-xl my-2" v-if="item.demo">Demo</h1>
                     <div class="shad">
                     <img :src="item.demo" style="width:50vw; box-shadow: .3vw .3vh .3vw;" class="mx-auto my-3 rounded-xl"></img>
                     </div>
