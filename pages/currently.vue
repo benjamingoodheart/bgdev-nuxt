@@ -8,7 +8,7 @@ useSeoMeta({
 </script>
 <template>
 <UContainer>
-    <UCard class="mx-auto" style="width: 50vw;">
+    <UCard class="mx-auto min-w-2 md:max-w-fit sm:max-w-80">
     <ContentDoc>
     <template v-slot="{doc}">
         <h1 class="text-xl">{{doc.title }}</h1>
