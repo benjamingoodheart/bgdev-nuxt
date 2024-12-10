@@ -1,6 +1,6 @@
 <script setup>
 import {useTemplateRef, onMounted, watch} from 'vue'
-const resumeRef = useTemplateRef('resume')
+const resumeRef:Ref<string> = useTemplateRef('resume')
 onMounted(()=>{
     resumeRef.value.focus()
 })
