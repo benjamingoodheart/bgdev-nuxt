@@ -11,12 +11,11 @@ useSeoMeta({
 </script>
 <template>
 <UContainer class="text-center">
-    <subtitle class="text-sm">If you're on Chrome on Mobile, the embedded résumé won't load. You download my résumé by <a class="hover:text-emerald-300" href="/resume-dec2024.pdf" download id="resume-dl">clicking here.</a></subtitle>
+    <div class="grid grid-cols-3">
+      <div></div>
+      <subtitle class="text-sm mb-4">If you're on Chrome on Mobile, the embedded résumé won't load. You download my résumé by <a class="hover:text-emerald-300" href="/resume-dec2024.pdf" download id="resume-dl" style="text-decoration: dotted underline;">clicking here.</a></subtitle>
+      <div></div>
+    </div>
     <embed src="resume-dec2024.pdf" width="80%" height="900vh" class="mx-auto my-resume" ref="resume"/>
 </UContainer>
 </template>
-<style>
-#resume-dl:hover{
-  color:
-}
-</style>

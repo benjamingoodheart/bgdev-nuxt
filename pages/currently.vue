@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 const {data} = await useAsyncData('currently', () => queryContent('/currently').findOne())
 useSeoMeta({
   title:'currently...',

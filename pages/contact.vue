@@ -1,9 +1,9 @@
-<script setup lang="ts">
+<script setup>
 useSeoMeta({
   title: 'contact',
   ogTitle: 'benjamin goodheart development'
 })
-const submitted: bool = ref(false)
+const submitted= ref(false)
 const handleClick = () => {
   submitted.value = true
 }

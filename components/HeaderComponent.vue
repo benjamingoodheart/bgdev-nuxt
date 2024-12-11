@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { useMediaQuery, useElementVisibility } from '@vueuse/core'
 
 const isLargeScreen = useMediaQuery('(min-width: 1024px)')
