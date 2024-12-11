@@ -10,7 +10,13 @@ useSeoMeta({
 })
 </script>
 <template>
-<UContainer>
+<UContainer class="text-center">
+    <subtitle class="text-sm">If you're on Chrome on Mobile, the embedded résumé won't load. You download my résumé by <a class="hover:text-emerald-300" href="/resume-dec2024.pdf" download id="resume-dl">clicking here.</a></subtitle>
     <embed src="resume-dec2024.pdf" width="80%" height="900vh" class="mx-auto my-resume" ref="resume"/>
 </UContainer>
 </template>
+<style>
+#resume-dl:hover{
+  color:
+}
+</style>
