@@ -20,10 +20,10 @@ const eeTarget = ref(null)
             </div>
             <div class="my-auto md:col-span-4 sm:col-span-2">
                 <UButton variant="link" class="dark:text-gray-100 hover:dark:text-blue-200" to="/"><span
-                        class="md:text-xl sm:text-xs">benjamin.goodheart.dev</span></UButton>
+                        class="font-mono md:text-xl sm:text-xs">benjamin.goodheart.dev</span></UButton>
             </div>
             <div class="justify-self-end col-span-6" v-if="isLargeScreen === true" ref="ddTarget">
-                <UHorizontalNavigation :links="links"></UHorizontalNavigation>
+                <UHorizontalNavigation :links="links" class="font-mono"></UHorizontalNavigation>
             </div>
             <div class="md:invisible sm:col-span-1 justify-self-end" v-if="isLargeScreen === false" ref="eeTarget">
                 <UDropdown :items="dropdownItems">

@@ -13,7 +13,7 @@ const items = [{
     desc: 'I wanted to showcase my past work and at the same time learn a new framework (Nuxt). You are on the current production deployment right now!',
     stack: ['Nuxt.js', 'Vue', 'AWS Amplify', 'Tailwind CSS'],
     icons: ['mingcute:code-line', 'carbon:portfolio', 'mingcute:layout-5-line'],
-    link: ['#']
+    link: 'https://github.com/benjamingoodheart/bgdev-nuxt/'
 },
 {
     slot: 'data',
