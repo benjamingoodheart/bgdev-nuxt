@@ -16,13 +16,15 @@ description: What I'm currently up to
 
 # 🎮 **PLAYING**
 --------------------------------
-Mario Kart 8
+**Mario Kart 8**
 
-Warhammer 40k: Dawn of War
+**Age Of Empires II HD Edition (2013)** | Playing through campaign modes
 
-Magic The Gathering (Limited & Commander)
+**Warhammer 40k: Dawn of War** | Just beat the main game on standard, looking forward to the expansions!
 
-Age Of Empires II HD Edition (2013)
+**Magic The Gathering (Limited & Commander)**
+
+
 <br><br>
 # 🎵 **LISTENING TO**
 
