@@ -6,7 +6,8 @@ onMounted(()=>{
 })
 useSeoMeta({
   title:'résumé',
-  ogTitle: 'benjamin goodheart development'
+  ogTitle: 'benjamin goodheart development',
+  ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
 })
 </script>
 <template>
