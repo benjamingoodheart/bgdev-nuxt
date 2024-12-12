@@ -1,9 +1,10 @@
 <script setup>
 useSeoMeta({
   title: 'contact',
-  ogTitle: 'benjamin goodheart development'
+  ogTitle: 'benjamin goodheart development',
+  ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
 })
-const submitted= ref(false)
+const submitted = ref(false)
 const handleClick = () => {
   submitted.value = true
 }

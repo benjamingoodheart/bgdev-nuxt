@@ -11,7 +11,6 @@ const eeTarget = ref(null)
 </script>
 <template>
     <UContainer>
-
         <div
             class="grid md:grid-cols-12 sm:grid-cols-6 border-2 border-primary-500 dark:border-0 dark:bg-gray-500 rounded-xl my-5 py-2 px-2">
             <div class="text-green-200 my-auto col-span-2 sm:col-span-1">
