@@ -4,9 +4,9 @@ useSeoMeta({
   title:'portfolio',
   ogTitle: 'portfolio | benjamin goodheart development',
   ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
-  description: "Benjamin Goodheart's Professional Development Portfolio",
-  ogDescription: "Benjamin Goodheart's Professional Development Portfolio",
-  twitterCard:'https://benjamin.goodheart.dev/ogcard.png'
+  description: "Benjamin Goodheart's professional development portfolio",
+  ogDescription: "Benjamin Goodheart's professional development portfolio",
+  twitterCard:'summary_large_image'
 })</script>
 <template>
     <UContainer class="mb-5">
