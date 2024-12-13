@@ -6,7 +6,7 @@ useSeoMeta({
   ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
   description: "What is Benjamin currently up to?",
   ogDescription: "What is Benjamin currently up to?",
-  twitterCard:'https://benjamin.goodheart.dev/ogcard.png'
+  twitterCard:'summary_large_image'
 })
 </script>
 <template>

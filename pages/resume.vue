@@ -8,8 +8,8 @@ useSeoMeta({
   title:'résumé',
   ogTitle: 'benjamin goodheart development',
   ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
-  description: "Benjamin Goodheart's Résumé",
-  ogDescription: "Benjamin Goodheart's Résumé",
+  description: "Benjamin Goodheart's résumé",
+  ogDescription: "Benjamin Goodheart's résumé",
   twitterCard:'https://benjamin.goodheart.dev/ogcard.png'
 })
 </script>
