@@ -7,10 +7,10 @@ onMounted(()=>{
 useSeoMeta({
   title:'résumé',
   ogTitle: 'benjamin goodheart development',
-  ogImage: 'https://benjamin.goodheart.dev/ogcard.jpg',
+  ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
   description: "Benjamin Goodheart's résumé",
   ogDescription: "Benjamin Goodheart's résumé",
-  twitterCard:'summary_large_image'
+  twitterCard:'summary_large_image',
 })
 </script>
 <template>

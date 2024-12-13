@@ -3,7 +3,7 @@ import { OgImage } from '../.nuxt/components';
 useSeoMeta({
   title:'portfolio',
   ogTitle: 'portfolio | benjamin goodheart development',
-  ogImage: 'https://benjamin.goodheart.dev/ogcard.jpg',
+  ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
   description: "Benjamin Goodheart's professional development portfolio",
   ogDescription: "Benjamin Goodheart's professional development portfolio",
   twitterCard:'summary_large_image',

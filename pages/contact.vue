@@ -2,7 +2,7 @@
 useSeoMeta({
   title: 'contact',
   ogTitle: 'benjamin goodheart development',
-  ogImage: 'https://benjamin.goodheart.dev/ogcard.jpg',
+  ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
   description: "Contact Benjamin",
   ogDescription: "Contact Benjamin",
   twitterCard:'summary_large_image'
