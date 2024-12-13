@@ -2,7 +2,11 @@
 const {data} = await useAsyncData('currently', () => queryContent('/currently').findOne())
 useSeoMeta({
   title:'currently...',
-  ogTitle: 'benjamin goodheart development'
+  ogTitle: 'currently | benjamin goodheart development',
+  ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
+  description: "What is Benjamin currently up to?",
+  ogDescription: "What is Benjamin currently up to?",
+  twitterCard:'summary_large_image'
 })
 </script>
 <template>

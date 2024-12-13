@@ -6,7 +6,11 @@ onMounted(()=>{
 })
 useSeoMeta({
   title:'résumé',
-  ogTitle: 'benjamin goodheart development'
+  ogTitle: 'benjamin goodheart development',
+  ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
+  description: "Benjamin Goodheart's résumé",
+  ogDescription: "Benjamin Goodheart's résumé",
+  twitterCard:'https://benjamin.goodheart.dev/ogcard.png'
 })
 </script>
 <template>
