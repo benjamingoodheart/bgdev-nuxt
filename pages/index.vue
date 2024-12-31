@@ -6,7 +6,7 @@ useSeoMeta({
   ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
   description: "Benjamin Goodheart's professional development portfolio",
   ogDescription: "Benjamin Goodheart's professional development portfolio",
-  twitterCard:'summary_large_image'
+  twitterCard:'summary_large_image',
 })</script>
 <template>
     <UContainer class="mb-5">

@@ -9,9 +9,10 @@ description: What I'm currently up to
 
 *Machine Learning with Python Cookbook, 2nd edition* by Gallatin & Albon
 
+*Don Quixote* by Miguel de Cervantes; translated by Edith Grossman
+
 *Essays and Aphorisms* by Arthur Schopenhauer
 
-*A Brief History of Ireland* by Richard Kellen
 <br><br>
 
 # 🎮 **PLAYING**
@@ -22,9 +23,18 @@ description: What I'm currently up to
 
 **Warhammer 40k: Dawn of War** | Just beat the main game on standard, looking forward to the expansions!
 
-**Magic The Gathering (Limited & Commander)**
+**Magic The Gathering (Draft, Standard, & Commander)**
 
 
+<br><br>
+# 📝 **LEARNING**
+
+---
+
+
+Blender3D
+
+Rust
 <br><br>
 # 🎵 **LISTENING TO**
 
