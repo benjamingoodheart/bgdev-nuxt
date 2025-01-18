@@ -17,13 +17,13 @@ description: What I'm currently up to
 
 # 🎮 **PLAYING**
 --------------------------------
-**Mario Kart 8**
+*Mario Kart 8*
 
-**Age Of Empires II HD Edition (2013)** | Playing through campaign modes
+*Age Of Empires II HD Edition (2013)* | Playing through campaign modes
 
-**Warhammer 40k: Dawn of War** | Just beat the main game on standard, looking forward to the expansions!
+*Warhammer 40k: Dawn of War* | Just beat the main game on standard, looking forward to the expansions!
 
-**Magic The Gathering (Draft, Standard, & Commander)**
+*Magic The Gathering (Draft, Standard, & Commander)*
 
 
 <br><br>
@@ -39,8 +39,8 @@ Rust
 # 🎵 **LISTENING TO**
 
 ---
-*Mm Food 20th Anniversary Edition* by MF Doom
+*Debí Tirar Más Fotos* by Bad Bunny
 
-*The Crying Out Of Things* By The Body
+*Mm Food 20th Anniversary Edition* by MF Doom
 
 *Gucci Gambinos* by Mickey Diamond & Big Ghost LTD
