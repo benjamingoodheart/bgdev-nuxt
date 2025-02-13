@@ -14,7 +14,7 @@ useSeoMeta({
 <UContainer class="text-center">
     <div class="grid grid-cols-3">
       <div></div>
-      <p class="text-md mb-4">Please download my résumé by <a class="hover:text-emerald-300" href="/resume_2025.pdf" download id="resume-dl" style="text-decoration: dotted underline;">clicking here.</a></p>
+      <UCard><p class="text-md">Please download my résumé by <a class="hover:text-emerald-300" href="/resume_2025.pdf" download id="resume-dl" style="text-decoration: dotted underline;">clicking here.</a></p></UCard>
       <div></div>
     </div>
   </UContainer>
