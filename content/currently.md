@@ -11,8 +11,6 @@ description: What I'm currently up to
 
 *Don Quixote* by Miguel de Cervantes; translated by Edith Grossman
 
-*Essays and Aphorisms* by Arthur Schopenhauer
-
 <br><br>
 
 # 🎮 **PLAYING**
@@ -39,7 +37,14 @@ Rust
 # 🎵 **LISTENING TO**
 
 ---
+
+*Permanent Ink* by Boldy James
+
 *Debí Tirar Más Fotos* by Bad Bunny
+
+*Somewhere Else* by The Drew Thomson Foundation
+
+*CAGE OF FLESH II* - Various Artists, released by KINDCRIME
 
 *Mm Food 20th Anniversary Edition* by MF Doom
 
