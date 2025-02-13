@@ -1,5 +1,4 @@
 # Benjamin Goodheart Development Site
-P
 ## Setup
 
 Make sure to install dependencies:
