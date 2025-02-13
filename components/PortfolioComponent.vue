@@ -58,7 +58,7 @@ const items = [{
                     </ul>
                     <div class="contaner"  v-if="item.demo">
                     <h1 class="text-xl my-2">Demo:</h1>
-                        <img alt='Demo .gif' :src="item.demo" style="width:50vw; box-shadow: .1vw .1vh .1vw;"
+                        <img alt='Demo .gif' :src="item.demo" style="height: 100; width:50vw; box-shadow: .1vw .1vh .1vw;"
                             class="mx-auto my-3 rounded-xl" loading="lazy"></img>
                     </div>
                     <div v-if="item.link" class="text-center">
