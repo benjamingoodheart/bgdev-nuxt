@@ -28,11 +28,10 @@ description: What I'm currently up to
 # 📝 **LEARNING**
 
 ---
-
+Rust - Check out my first project "Mystic Seer"  [here](https://github.com/benjamingoodheart/mystic-seer)!
 
 Blender3D
 
-Rust
 <br><br>
 # 🎵 **LISTENING TO**
 

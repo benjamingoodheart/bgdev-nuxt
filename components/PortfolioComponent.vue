@@ -6,7 +6,7 @@ const items = [{
     stack: ['Python', 'pdfplumber', 'pandas'],
     icons: ['material-symbols:picture-as-pdf-outline', 'svg-spinners:3-dots-fade', 'pixelarticons:table'],
     link: 'https://github.com/benjamingoodheart/xtractor',
-    demo: '/demos/xtractor-demo.gif'
+    demo: '/demos/xtractor.webp'
 },{
     slot: 'data',
     label: 'My Portfolio Website',
@@ -16,11 +16,20 @@ const items = [{
     link: 'https://github.com/benjamingoodheart/bgdev-nuxt/'
 },
 {
+    slot:'data',
+    label: 'Mystic Seer',
+    desc: "A CLI app inspired by The Twilight Zone episode 'The Nick of Time'. Ask a yes or no question and find out your fortune. Implemented in Rust to learn more about the language. ",
+    stack: ["Rust"],
+    demo:'/demos/mystic-seer.webp',
+    icons:['mdi:star-four-points-outline','mingcute:crystal-ball-line', "mingcute:ticket-line"],
+    link: 'https://github.com/benjamingoodheart/mystic-seer'
+},
+{
     slot: 'data',
     label: '.csv->db Daemon',
     desc: 'A client wanted to simulate drafting fantasy athletes using pre-existing data and a database, putting one row from the csv into the corresponding table once a day for a year. I wrote a script that achieved this. ',
     stack: ['Python', 'Pandas', 'numpy'],
-    demo: '/demos/csvdaemon.gif',
+    demo: '/demos/csvdaemon.webp',
     icons: ['material-symbols:csv-outline-sharp', 'material-symbols:line-end-arrow-outline-rounded', 'material-symbols:database-outline'],
     link: 'https://github.com/benjamingoodheart/stats-thru-year-sim'
 }, {
@@ -28,7 +37,7 @@ const items = [{
     label: 'Backgronym Generator',
     desc: 'The goal of this project was to create a simple CLI tool to help me come up with dummy names for projects. Additionally, it gives the definition for the backgroynm that is generated. ',
     stack: ['Node.js', 'axios'],
-    demo: "/demos/backgronym.gif",
+    demo: "/demos/backgronym.webp",
     icons: ['material-symbols:dictionary-outline-rounded', 'tabler:arrows-random', 'mdi:generator-stationary'],
     link: 'https://github.com/benjamingoodheart/backgronym-generator'
 },]
@@ -58,8 +67,8 @@ const items = [{
                     </ul>
                     <div class="contaner"  v-if="item.demo">
                     <h1 class="text-xl my-2">Demo:</h1>
-                        <img alt='Demo .gif' :src="item.demo" style="height: 100; width:50vw; box-shadow: .1vw .1vh .1vw;"
-                            class="mx-auto my-3 rounded-xl" loading="lazy"></img>
+                        <img alt='Demo .gif' :src="item.demo" style="box-shadow: .1vw .1vh .1vw;"
+                            class="mx-auto my-3 rounded-xl lg:w-3/5 md:min-w-screen sm:min-w-screen" loading="lazy" ></img>
                     </div>
                     <div v-if="item.link" class="text-center">
                         <UButton size="2xs" icon="mingcute:github-line"
