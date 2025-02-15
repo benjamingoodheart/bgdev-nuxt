@@ -14,7 +14,7 @@ const eeTarget = ref(null)
         <div
             class="grid md:grid-cols-12 sm:grid-cols-6 border-2 border-primary-500 dark:border-0 dark:bg-gray-500 rounded-xl my-5 py-2 px-2">
             <div class="text-green-200 my-auto col-span-2 sm:col-span-1">
-                <UAvatar size="md" src="/avatar.webp" class="shadow-md pfp dark:grayscale dark:brightness-125"
+                <UAvatar alt="avatar" size="md" src="/avatar.webp" class="shadow-md pfp dark:grayscale dark:brightness-125"
                     v-if="isLargeScreen === true"></UAvatar>
             </div>
             <div class="my-auto md:col-span-4 sm:col-span-2">
