@@ -1,14 +1,6 @@
 <script setup>
 const items = [{
     slot: 'data',
-    label: 'PDF Xtractor',
-    desc: 'CLI utility to easy extract pdf tables contained within.',
-    stack: ['Python', 'pdfplumber', 'pandas'],
-    icons: ['material-symbols:picture-as-pdf-outline', 'svg-spinners:3-dots-fade', 'pixelarticons:table'],
-    link: 'https://github.com/benjamingoodheart/xtractor',
-    demo: '/demos/xtractor.webp'
-},{
-    slot: 'data',
     label: 'My Portfolio Website',
     desc: 'I wanted to showcase my past work and at the same time learn a new framework (Nuxt). You are on the current production deployment right now!',
     stack: ['Nuxt.js', 'Vue', 'AWS Amplify', 'Tailwind CSS'],
@@ -23,6 +15,14 @@ const items = [{
     demo:'/demos/mystic-seer.webp',
     icons:['mdi:star-four-points-outline','mingcute:crystal-ball-line', "mingcute:ticket-line"],
     link: 'https://github.com/benjamingoodheart/mystic-seer'
+},{
+    slot: 'data',
+    label: 'PDF Xtractor',
+    desc: 'CLI utility to easy extract pdf tables contained within.',
+    stack: ['Python', 'pdfplumber', 'pandas'],
+    icons: ['material-symbols:picture-as-pdf-outline', 'svg-spinners:3-dots-fade', 'pixelarticons:table'],
+    link: 'https://github.com/benjamingoodheart/xtractor',
+    demo: '/demos/xtractor.webp'
 },
 {
     slot: 'data',
