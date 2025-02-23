@@ -23,5 +23,7 @@ useSeoMeta({
 
 </template>
 <style>
-
+.link-class:hover{
+  color: #6ee7b7 !important;
+}
 </style>

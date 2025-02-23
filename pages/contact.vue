@@ -17,9 +17,9 @@ const handleClick = () => {
     <div class="grid md:grid-cols-4">
       <div></div>
       <UCard class="col-span-2">
-        <p class="text-lg">You can find me on <UButton href="https://github.com/benjamingoodheart" size="xs"
+        <p class="text-lg">You can find me on <UButton to="https://github.com/benjamingoodheart" size="xs"
             variant="outline" icon="mingcute:github-line" target="_blank">Github</UButton> and <UButton
-            href="https://www.linkedin.com/in/bengoodheart/" class="hover:text-primary-300 mr-1" variant="outline"
+            to="https://www.linkedin.com/in/bengoodheart/" class="hover:text-primary-300 mr-1" variant="outline"
             size="xs" icon="tabler:brand-linkedin" target="_blank">LinkedIn</UButton>.</p>
 
         <div class="container" v-if="!submitted">

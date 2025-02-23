@@ -1,10 +1,10 @@
 <script setup>
 import { useMediaQuery, useElementVisibility } from '@vueuse/core'
 
-const isLargeScreen = useMediaQuery('(min-width: 1024px)')
-const links = [{ label: 'portfolio', to: '/' }, { label: 'résumé', to: '/resume' }, { label: 'currently', to: '/currently' }, { label: 'contact', to: 'contact' }]
+const isLargeScreen = useMediaQuery('(min-width: 780px)')
+const links = [{ label: 'portfolio', to: '/' }, { label: 'currently', to: '/currently' }, { label: 'contact', to: 'contact' }]
 const dropdownItems = [[
-    { label: 'portfolio', to: '/' }, { label: 'résumé', to: '/resume' }, { label: 'currently', to: '/currently' }, { label: 'contact', to: '/contact' }
+    { label: 'portfolio', to: '/' }, { label: 'currently', to: '/currently' }, { label: 'contact', to: '/contact' }
 ]]
 const ddTarget = ref(null)
 const eeTarget = ref(null)
@@ -24,7 +24,7 @@ const eeTarget = ref(null)
             <div class="justify-self-end col-span-6" v-if="isLargeScreen === true" ref="ddTarget">
                 <UHorizontalNavigation :links="links" class="font-mono"></UHorizontalNavigation>
             </div>
-            <div class="md:invisible sm:col-span-1 justify-self-end" v-if="isLargeScreen === false" ref="eeTarget">
+            <div class="md:invisible sm:col-span-2 justify-self-end" v-if="isLargeScreen === false" ref="eeTarget">
                 <UDropdown :items="dropdownItems">
                     <UButton icon="ic:outline-menu" class="dark:bg-slate-400 dark:hover:bg-slate-50"></UButton>
                 </UDropdown>
