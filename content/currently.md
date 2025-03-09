@@ -5,11 +5,13 @@ description: What I'm currently up to
 
 # 📚 **READING** 
 ---
+*God's Playground: A History Of Poland, Volume 1: The Origins to 1795* by Norman Davies
+
+*Don Quixote* by Miguel de Cervantes; translated by Edith Grossman | Just finished. Dope beyond words.
+
 *Hackers Delight, 2nd Edition* by Henry S. Warren, Jr.
 
 *Machine Learning with Python Cookbook, 2nd edition* by Gallatin & Albon
-
-*Don Quixote* by Miguel de Cervantes; translated by Edith Grossman
 
 <br><br>
 
@@ -21,7 +23,7 @@ description: What I'm currently up to
 
 *Warhammer 40k: Dawn of War* | Just beat the main game on standard, looking forward to the expansions!
 
-*Magic The Gathering (Draft, Standard, & Commander)*
+*Magic The Gathering (Draft & Commander)*
 
 
 <br><br>
@@ -37,6 +39,8 @@ Blender3D
 
 ---
 
+*Idaho* by Ingrown
+
 *Permanent Ink* by Boldy James
 
 *Debí Tirar Más Fotos* by Bad Bunny
@@ -44,7 +48,3 @@ Blender3D
 *Somewhere Else* by The Drew Thomson Foundation
 
 *CAGE OF FLESH II* - Various Artists, released by KINDCRIME
-
-*Mm Food 20th Anniversary Edition* by MF Doom
-
-*Gucci Gambinos* by Mickey Diamond & Big Ghost LTD
