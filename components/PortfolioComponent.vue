@@ -62,7 +62,7 @@ const items = [{
                         Stack: </h1>
                     <ul>
                         <li v-for="s in item.stack">
-                            <Icon name="fluent:window-dev-tools-24-filled" class="my-auto mx-2" size=".8em" />{{ s }}
+                            <Icon name="pixelarticons:label-sharp" class="my-auto mx-2" size=".8em" />{{ s }}
                         </li>
                     </ul>
                     <div class="contaner"  v-if="item.demo">
