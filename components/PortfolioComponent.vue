@@ -10,7 +10,7 @@ const items = [{
 {
     slot:'data',
     label: 'Mystic Seer',
-    desc: "A CLI app inspired by The Twilight Zone episode 'The Nick of Time'. Ask a yes or no question and find out your fortune. Implemented in Rust to learn more about the language. ",
+    desc: "A CLI app inspired by The Twilight Zone episode 'The Nick of Time'. Ask a yes or no question and find out your fortune. Implemented in Rust to learn more about the language. v0.2.0 released on 03/30/25 with colorized output!",
     stack: ["Rust"],
     demo:'/demos/mystic-seer.webp',
     icons:['mdi:star-four-points-outline','mingcute:crystal-ball-line', "mingcute:ticket-line"],
