@@ -23,9 +23,12 @@
     "vue": "latest",
     "vue-router": "latest",
     "image-size": ">=1.2.1",
-    "koa": ">=2.16.1"
+    "koa": ">=2.16.1",
+    "tar-fs": ">=3.0.9",
+      "brace-expansion": ">=2.0.2"
   },
   "devDependencies": {
+
     "@iconify-json/carbon": "^1.2.5",
     "@iconify-json/ic": "^1.2.1",
     "@iconify-json/material-symbols": "^1.2.12",
@@ -35,6 +38,8 @@
     "@iconify-json/svg-spinners": "^1.2.2",
     "@iconify-json/tabler": "^1.2.10",
     "@nuxtjs/mdc": ">=0.13.3",
-    "koa": ">=2.16.1"
+    "koa": ">=2.16.1",
+        "tar-fs": ">=3.0.9",
+      "brace-expansion": ">=2.0.2"
   }
 }

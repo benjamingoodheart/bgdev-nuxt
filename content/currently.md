@@ -6,9 +6,10 @@ description: What I'm currently up to
 # 📚 **READING** 
 ---
 
+*Collected Fictions* by Jorge Luis Borges, translated by Andrew Hurley
+
 *The Illiad* by Homer, translated by Emily Wilson
 
-*God's Playground: A History Of Poland, Volume 1: The Origins to 1795* by Norman Davies
 <br><br>
 
 # 🎮 **PLAYING**

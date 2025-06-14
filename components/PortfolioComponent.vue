@@ -1,5 +1,14 @@
 <script setup>
-const items = [{
+const items = [
+{
+    slot: 'data',
+    label: 'River of Babel',
+    desc: 'A web app that translates one music streaming source to another.',
+    stack: ["Nuxt.js", "Vue", "Tailwind CSS", "Apple Music API", "Spotify API", "Vercel"],
+    icons: ['mingcute:music-line', 'mingcute:transformation-line','mingcute:link-2-line'],
+    directLink: 'https://www.riverofbabel.app'
+},
+{
     slot: 'data',
     label: 'My Portfolio Website',
     desc: 'I wanted to showcase my past work and at the same time learn a new framework (Nuxt). You are on the current production deployment right now!',
@@ -75,6 +84,12 @@ const items = [{
                             class="git-btn dark:bg-slate-500 hover:dark:bg-slate-700 dark:text-white" :to="item.link"
                             target="_blank">
                             View On Github</UButton>
+                    </div>
+                    <div v-if="item.directLink" class="text-center">
+                        <UButton size="2xs" icon="carbon:application-web"
+                            class="git-btn dark:bg-slate-500 hover:dark:bg-slate-700 dark:text-white" :to="item.link"
+                            target="_blank">
+                            Visit {{ item.label }}</UButton>
                     </div>
                 </div>
             </UCard>
