@@ -1,5 +1,14 @@
 <script setup>
-const items = [{
+const items = [
+{
+    slot: 'data',
+    label: 'River of Babel',
+    desc: 'A web app that translates one music streaming source to another.',
+    stack: ["Nuxt.js", "Vue", "Tailwind CSS", "Apple Music API", "Spotify API", "Vercel"],
+    icons: ['mingcute:music-line', 'mingcute:transformation-line','mingcute:link-2-line'],
+    directLink: 'https://www.riverofbabel.app'
+},
+{
     slot: 'data',
     label: 'My Portfolio Website',
     desc: 'I wanted to showcase my past work and at the same time learn a new framework (Nuxt). You are on the current production deployment right now!',
@@ -32,14 +41,6 @@ const items = [{
     demo: '/demos/csvdaemon.webp',
     icons: ['material-symbols:csv-outline-sharp', 'material-symbols:line-end-arrow-outline-rounded', 'material-symbols:database-outline'],
     link: 'https://github.com/benjamingoodheart/stats-thru-year-sim'
-}, {
-    slot: 'data',
-    label: 'Backgronym Generator',
-    desc: 'The goal of this project was to create a simple CLI tool to help me come up with dummy names for projects. Additionally, it gives the definition for the backgroynm that is generated. ',
-    stack: ['Node.js', 'axios'],
-    demo: "/demos/backgronym.webp",
-    icons: ['material-symbols:dictionary-outline-rounded', 'tabler:arrows-random', 'mdi:generator-stationary'],
-    link: 'https://github.com/benjamingoodheart/backgronym-generator'
 },]
 </script>
 <template>
@@ -75,6 +76,12 @@ const items = [{
                             class="git-btn dark:bg-slate-500 hover:dark:bg-slate-700 dark:text-white" :to="item.link"
                             target="_blank">
                             View On Github</UButton>
+                    </div>
+                    <div v-if="item.directLink" class="text-center">
+                        <UButton size="2xs" icon="carbon:application-web"
+                            class="git-btn dark:bg-slate-500 hover:dark:bg-slate-700 dark:text-white" :to="item.directLink"
+                            target="_blank">
+                            Visit {{ item.label }}</UButton>
                     </div>
                 </div>
             </UCard>
