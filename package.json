@@ -25,7 +25,8 @@
     "image-size": ">=1.2.1",
     "koa": ">=2.16.1",
     "tar-fs": ">=3.0.9",
-    "brace-expansion": ">=2.0.2"
+    "brace-expansion": ">=2.0.2",
+    "undici": ">=6.21.2"
   },
   "devDependencies": {
     "@iconify-json/carbon": "^1.2.5",
@@ -39,6 +40,7 @@
     "@nuxtjs/mdc": ">=0.13.3",
     "koa": ">=2.16.1",
     "tar-fs": ">=3.0.9",
-    "brace-expansion": ">=2.0.2"
+    "brace-expansion": ">=2.0.2",
+    "undici": ">=6.21.2"
   }
 }
