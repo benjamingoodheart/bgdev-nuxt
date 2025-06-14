@@ -41,14 +41,6 @@ const items = [
     demo: '/demos/csvdaemon.webp',
     icons: ['material-symbols:csv-outline-sharp', 'material-symbols:line-end-arrow-outline-rounded', 'material-symbols:database-outline'],
     link: 'https://github.com/benjamingoodheart/stats-thru-year-sim'
-}, {
-    slot: 'data',
-    label: 'Backgronym Generator',
-    desc: 'The goal of this project was to create a simple CLI tool to help me come up with dummy names for projects. Additionally, it gives the definition for the backgroynm that is generated. ',
-    stack: ['Node.js', 'axios'],
-    demo: "/demos/backgronym.webp",
-    icons: ['material-symbols:dictionary-outline-rounded', 'tabler:arrows-random', 'mdi:generator-stationary'],
-    link: 'https://github.com/benjamingoodheart/backgronym-generator'
 },]
 </script>
 <template>
