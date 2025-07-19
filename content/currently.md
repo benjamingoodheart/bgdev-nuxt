@@ -5,22 +5,22 @@ description: What I'm currently up to
 
 # 📚 **READING** 
 ---
+*The Aeneid* by Virgil, translated by Shadi Bartsch
 
 *Collected Fictions* by Jorge Luis Borges, translated by Andrew Hurley
 
-*The Illiad* by Homer, translated by Emily Wilson
 
 <br><br>
 
 # 🎮 **PLAYING**
 --------------------------------
-*Mario Kart 8*
-
 *Age Of Empires II HD Edition (2013)* | Playing through campaign modes
 
-*Warhammer 40k: Dawn of War* | Just beat the main game on standard, looking forward to the expansions!
-
 *Magic The Gathering (Draft, Pauper, Commander)*
+
+*Half-Life 2*
+
+*Warhammer 40k: Dawn of War* | Just beat the main game on standard, looking forward to the expansions!
 
 
 <br><br>
@@ -35,6 +35,7 @@ Blender3D
 # 🎵 **LISTENING TO**
 
 ---
+*Poetry From Pain* by Gridiron
 
 *Lonely People with Power* by Deafheaven
 
