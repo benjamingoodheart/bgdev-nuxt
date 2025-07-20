@@ -43,7 +43,8 @@
     "brace-expansion": ">=2.0.2",
     "undici": ">=6.21.2"
   },
-  "peerDependencies": {
-	"@rollup/rollup-darwin-arm64": "^4.45.1"
+  "optionalDependencies": {
+  "@rollup/rollup-linux-x64-gnu": "*"
 }
+
 }
