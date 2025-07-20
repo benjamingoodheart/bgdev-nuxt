@@ -42,10 +42,5 @@
     "tar-fs": ">=3.0.9",
     "brace-expansion": ">=2.0.2",
     "undici": ">=6.21.2"
-  },
-  "optionalDependencies": {
-  "@rollup/rollup-linux-x64-gnu": "*",
-  "@oxc-parser/binding-linux-x64-gnu": "0.77.3"
-}
-
+  }
 }
