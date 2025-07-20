@@ -42,5 +42,8 @@
     "tar-fs": ">=3.0.9",
     "brace-expansion": ">=2.0.2",
     "undici": ">=6.21.2"
-  }
+  },
+  "peerDependencies": {
+	"@rollup/rollup-darwin-arm64": "^4.45.1"
+}
 }
