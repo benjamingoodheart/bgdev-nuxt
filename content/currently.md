@@ -5,9 +5,11 @@ description: What I'm currently up to
 
 # 📚 **READING** 
 ---
+*The Noonday Demon: An Atlas of Depression* by Andrew Solomon
+
 *The Aeneid* by Virgil, translated by Shadi Bartsch
 
-*Collected Fictions* by Jorge Luis Borges, translated by Andrew Hurley
+
 
 
 <br><br>
