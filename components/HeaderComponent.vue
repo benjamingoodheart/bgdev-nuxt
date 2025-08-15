@@ -2,9 +2,9 @@
 import { useMediaQuery, useElementVisibility } from '@vueuse/core'
 
 const isLargeScreen = useMediaQuery('(min-width: 780px)')
-const links = [{ label: 'portfolio', to: '/' }, { label: 'currently', to: '/currently' }, { label: 'contact', to: 'contact' }]
+const links = [{ label: 'portfolio', to: '/' }, { label: 'currently', to: '/currently' }, {label: 'about', to: '/about'}, { label: 'contact', to: 'contact' }]
 const dropdownItems = [[
-    { label: 'portfolio', to: '/' }, { label: 'currently', to: '/currently' }, { label: 'contact', to: '/contact' }
+    { label: 'portfolio', to: '/' }, { label: 'currently', to: '/currently' }, {label: 'about', to: '/about'}, { label: 'contact', to: '/contact' }
 ]]
 const ddTarget = ref(null)
 const eeTarget = ref(null)
