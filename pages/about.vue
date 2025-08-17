@@ -3,10 +3,11 @@ const {data} = await useAsyncData('about', () => queryContent('/about').findOne(
 </script>
 <template>
 <UContainer>
-    <UCard class="mx-auto min-w-2 md:max-w-lg sm:max-w-80">
+    <UCard class="mx-auto min-w-2 md:max-w-xl sm:max-w-80">
     <ContentDoc>
     <template v-slot="{doc}">
         <h1 class="text-xl">{{doc.title }}</h1>
+        <hr class="pb-2"></hr>
     </template>
 </ContentDoc>
 <ContentRendererMarkdown :value="data" class="text-sm"></ContentRendererMarkdown>
