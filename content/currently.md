@@ -5,10 +5,10 @@ description: What I'm currently up to
 
 # 📚 **READING** 
 ---
-*The Noonday Demon: An Atlas of Depression* by Andrew Solomon
+*Paradise Lost* by John Milton
 
-*The Aeneid* by Virgil, translated by Shadi Bartsch
 
+*A Thread of Violence* by Mark O'Connell
 
 
 
@@ -37,6 +37,8 @@ Blender3D
 # 🎵 **LISTENING TO**
 
 ---
+*Highway To The End* by Dark Thoughts
+
 *Poetry From Pain* by Gridiron
 
 *Lonely People with Power* by Deafheaven
@@ -46,7 +48,3 @@ Blender3D
 *Permanent Ink* by Boldy James
 
 *Debí Tirar Más Fotos* by Bad Bunny
-
-*Somewhere Else* by The Drew Thomson Foundation
-
-*CAGE OF FLESH II* - Various Artists, released by KINDCRIME
