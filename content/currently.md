@@ -5,6 +5,9 @@ description: What I'm currently up to
 
 # 📚 **READING** 
 ---
+*NW* by Zadie Smith
+
+
 *Paradise Lost* by John Milton
 
 
@@ -18,7 +21,7 @@ description: What I'm currently up to
 --------------------------------
 *Age Of Empires II HD Edition (2013)* | Playing through campaign modes
 
-*Magic The Gathering (Draft, Pauper, Commander)*
+*Magic The Gathering (Draft, Pauper [[NYC League](https://decksandthecity.org){.link-class target=_blank}] , Commander)*
 
 *Half-Life 2*
 
@@ -29,7 +32,7 @@ description: What I'm currently up to
 # 📝 **LEARNING**
 
 ---
-Rust - Check out my first project [Mystic Seer here](https://github.com/benjamingoodheart/mystic-seer){.link-class} !
+Rust - Check out my first project [Mystic Seer here](https://github.com/benjamingoodheart/mystic-seer){.link-class target=_blank}!
 
 Blender3D
 
@@ -37,6 +40,8 @@ Blender3D
 # 🎵 **LISTENING TO**
 
 ---
+*Patient Zero* by Souvenir Noir
+
 *Highway To The End* by Dark Thoughts
 
 *Poetry From Pain* by Gridiron

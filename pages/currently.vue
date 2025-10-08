@@ -23,7 +23,14 @@ useSeoMeta({
 
 </template>
 <style>
+.link-class{
+  text-decoration-color: #a7f3d0 !important; 
+  text-decoration: underline dotted;
+}
 .link-class:hover{
   color: #6ee7b7 !important;
+  text-decoration: underline dotted;
+  text-decoration-thickness: 2px !important;
+  text-decoration-color: #6ee7b7 !important;
 }
 </style>
