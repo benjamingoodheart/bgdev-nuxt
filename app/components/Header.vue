@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useMediaQuery, useElementVisibility } from "@vueuse/core";
+import { UColorModeSwitch } from '../../.nuxt/content/components';
 
 const isLargeScreen = useMediaQuery("(min-width: 780px)");
 const links = [
@@ -42,14 +43,16 @@ const eeTarget = ref(null);
             >benjamin.goodheart.dev</span
           ></UButton
         >
+        
       </div>
       <div
         class="justify-self-end col-span-6"
         v-if="isLargeScreen === true"
         ref="ddTarget"
       >
-        <UNavigationMenu :items="links" class="font-mono"></UNavigationMenu>
+        <UNavigationMenu :items="links" class="font-mono"></UNavigationMenu>            
       </div>
+     
       <div
         class="md:invisible sm:col-span-2 justify-self-end"
         v-if="isLargeScreen === false"
@@ -63,6 +66,7 @@ const eeTarget = ref(null);
         </UDropdownMenu>
       </div>
     </div>
+
   </UContainer>
 </template>
 <style>
