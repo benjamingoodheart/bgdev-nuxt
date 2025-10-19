@@ -1,22 +1,31 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
-  devtools: { enabled: true },
   modules: [
+    '@nuxt/eslint',
+    '@nuxt/ui',
     '@nuxt/content',
     '@nuxt/image',
-    '@nuxt/icon',
-    '@nuxt/ui',
-    '@nuxtjs/seo',
-    'nuxt-gtag'
+    '@nuxt/scripts'
   ],
-  gtag: {
-    id: 'G-Z4EF9VBTX6'
+
+  devtools: {
+    enabled: true
   },
-  app:{
-    head: {
-    titleTemplate(titleChunk) {
-      return titleChunk ? titleChunk : pkg.name
+
+  css: ['~/assets/css/main.css'],
+
+  routeRules: {
+    '/': { prerender: true }
+  },
+
+  compatibilityDate: '2025-01-15',
+
+  eslint: {
+    config: {
+      stylistic: {
+        commaDangle: 'never',
+        braceStyle: '1tbs'
+      }
     }
-  }}
+  }
 })
