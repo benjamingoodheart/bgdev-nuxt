@@ -19,6 +19,7 @@
     "@nuxt/scripts": "0.12.1",
     "@nuxt/ui": "^4.0.1",
     "@unhead/vue": "^2.0.17",
+    "better-sqlite3": "^12.4.1",
     "nuxt": "^4.1.2",
     "sqlite3": "^5.1.7"
   },
