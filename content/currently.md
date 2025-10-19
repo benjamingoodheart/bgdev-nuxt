@@ -1,10 +1,10 @@
 ---
 title: currently...
-description: What I'm currently up to
+description: What Benjamin is currently up to
 ---
+----
+## 📚 **READING** 
 
-# 📚 **READING** 
----
 *NW* by Zadie Smith
 
 
@@ -14,11 +14,9 @@ description: What I'm currently up to
 *A Thread of Violence* by Mark O'Connell
 
 
-
-<br><br>
-
-# 🎮 **PLAYING**
 --------------------------------
+## 🎮 **PLAYING**
+
 *Age Of Empires II HD Edition (2013)* | Playing through campaign modes
 
 *Magic The Gathering (Draft, Pauper [[NYC League](https://decksandthecity.org){.link-class target=_blank}] , Commander)*
@@ -27,19 +25,17 @@ description: What I'm currently up to
 
 *Warhammer 40k: Dawn of War* | Just beat the main game on standard, looking forward to the expansions!
 
-
-<br><br>
-# 📝 **LEARNING**
-
 ---
+
+## 📝 **LEARNING**
+
 Rust - Check out my first project [Mystic Seer here](https://github.com/benjamingoodheart/mystic-seer){.link-class target=_blank}!
 
 Blender3D
 
-<br><br>
-# 🎵 **LISTENING TO**
-
 ---
+## 🎵 **LISTENING TO**
+
 *Patient Zero* by Souvenir Noir
 
 *Highway To The End* by Dark Thoughts
