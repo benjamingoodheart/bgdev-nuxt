@@ -4,7 +4,8 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/ui',
     '@nuxt/content',
-    '@nuxt/scripts'
+    '@nuxt/scripts',
+    'nuxt-gtag'
   ],
 
   devtools: {
@@ -18,7 +19,9 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2025-01-15',
-
+  gtag: {
+    id: 'G-Z4EF9VBTX6'
+  },
   eslint: {
     config: {
       stylistic: {

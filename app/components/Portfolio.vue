@@ -67,11 +67,11 @@ const items = [
                             <Icon name="pixelarticons:label-sharp" class="my-auto mx-2" size=".8em" />{{ s }}
                         </li>
                     </ul>
-                    <UContainer  v-if="item.demo">
+                    <div v-if="item.demo">
                     <h1 class="text-xl my-2">Demo:</h1>
                         <img alt='Demo .gif' :src="item.demo" style="box-shadow: .1vw .1vh .1vw;"
                             class="mx-auto my-3 rounded-xl md:object-cover sm:min-w-full sm:min-h-full" loading="lazy" ></img>
-                    </UContainer>
+                    </div>
                     <div v-if="item.link" class="text-center">
                         <UButton size="xs" icon="mingcute:github-line"
                             class="git-btn dark:bg-slate-500 hover:dark:bg-slate-700 dark:text-white" :to="item.link"
