@@ -3,6 +3,6 @@ import { UColorModeSelect } from '../../.nuxt/content/components';
 </script>
 <template>
     <UContainer class="text-center">
-        <UColorModeSelect class="mb-2" size="xs"/>
+        <UColorModeSelect class="m-3" size="xs"/>
     </UContainer>
 </template>

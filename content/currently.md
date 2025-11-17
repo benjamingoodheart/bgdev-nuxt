@@ -5,13 +5,13 @@ description: What Benjamin is currently up to
 ----
 ## 📚 **READING** 
 
+*Ghenghis Khan and the Making of the Modern World* by Jack Weatherford
+
 *NW* by Zadie Smith
 
 
 *Paradise Lost* by John Milton
 
-
-*A Thread of Violence* by Mark O'Connell
 
 
 --------------------------------
@@ -23,7 +23,6 @@ description: What Benjamin is currently up to
 
 *Half-Life 2*
 
-*Warhammer 40k: Dawn of War* | Just beat the main game on standard, looking forward to the expansions!
 
 ---
 
@@ -36,6 +35,12 @@ Blender3D
 ---
 ## 🎵 **LISTENING TO**
 
+*Through This Fire Across from Peter Balkan* by The Mountain Goats
+
+*Mercy* by Armand Hammer & The Alchemist
+
+*Internet* by soccer.
+
 *Patient Zero* by Souvenir Noir
 
 *Highway To The End* by Dark Thoughts
@@ -46,6 +51,3 @@ Blender3D
 
 *Idaho* by Ingrown
 
-*Permanent Ink* by Boldy James
-
-*Debí Tirar Más Fotos* by Bad Bunny
