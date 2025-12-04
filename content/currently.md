@@ -5,13 +5,9 @@ description: What Benjamin is currently up to
 ----
 ## 📚 **READING** 
 
+*The Fraud* by Zadie Smith
+
 *Ghenghis Khan and the Making of the Modern World* by Jack Weatherford
-
-*NW* by Zadie Smith
-
-
-*Paradise Lost* by John Milton
-
 
 
 --------------------------------
@@ -20,6 +16,8 @@ description: What Benjamin is currently up to
 *Age Of Empires II HD Edition (2013)* | Playing through campaign modes
 
 *Magic The Gathering (Draft, Pauper [[NYC League](https://decksandthecity.org){.link-class target=_blank}] , Commander)*
+
+*Mortal Kombat 11*
 
 *Half-Life 2*
 
@@ -34,6 +32,8 @@ Blender3D
 
 ---
 ## 🎵 **LISTENING TO**
+
+*Watch It Die* by Home Front
 
 *Through This Fire Across from Peter Balkan* by The Mountain Goats
 
