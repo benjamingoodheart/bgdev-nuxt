@@ -5,6 +5,10 @@ description: What Benjamin is currently up to
 ----
 ## 📚 **READING** 
 
+*The Empusium* by Olga Tokarczuk
+
+*Fascist Yoga* by Stewart Home
+
 *The Fraud* by Zadie Smith
 
 *Ghenghis Khan and the Making of the Modern World* by Jack Weatherford
@@ -13,13 +17,13 @@ description: What Benjamin is currently up to
 --------------------------------
 ## 🎮 **PLAYING**
 
-*Age Of Empires II HD Edition (2013)* | Playing through campaign modes
+*Age Of Empires II HD Edition (2013)* | Playing through Age of Kings campaign modes
 
-*Magic The Gathering (Draft, Pauper [[NYC League](https://decksandthecity.org){.link-class target=_blank}] , Commander)*
-
-*Mortal Kombat 11*
+*Magic The Gathering (Draft, Pauper [[NYC League](https://decksandthecity.org){.link-class target=_blank}] )*
 
 *Half-Life 2*
+
+*Vampire Survivors*
 
 
 ---
