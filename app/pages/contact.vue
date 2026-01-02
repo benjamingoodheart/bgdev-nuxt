@@ -8,9 +8,7 @@ useSeoMeta({
   twitterCard:'summary_large_image'
 })
 const submitted = ref(false)
-const handleClick = () => {
-  submitted.value = true
-}
+
 </script>
 <template>
   <UContainer class="grid">
@@ -25,7 +23,7 @@ const handleClick = () => {
         <div class="container" v-if="!submitted">
           <p>You can also send me a message using the form below:</p>
 
-          <form action="https://formspree.io/f/mbljzgea" method="POST" target="_blank"
+          <form action="https://formspree.io/f/mbljzgea" method="POST" target="_blank" 
             class="border-2 rounded-xl p-2 my-5 shadow-md">
             <div class="grid grid-cols-4 space-y-2 m-2">
 
@@ -40,9 +38,8 @@ const handleClick = () => {
             </div>
 
             <div class="text-center">
-              <UButton type="submit" @click="handleClick" class="dark:bg-slate-500 dark:hover:bg-slate-400">Send
+              <UButton type="submit" label="Submit" variant="ghost">
               </UButton>
-
             </div>
           </form>
         </div>
