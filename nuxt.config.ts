@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/content',
     '@nuxt/scripts',
-    'nuxt-gtag'
+    'nuxt-gtag',
   ],
 
   devtools: {
@@ -29,5 +29,6 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  }
+  },
+  
 })
