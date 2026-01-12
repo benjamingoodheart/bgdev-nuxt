@@ -6,8 +6,17 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/scripts',
     'nuxt-gtag',
+        'nuxt-nodemailer'
   ],
-
+  nodemailer: {
+    from: '"Goodheart.dev" <hello@goodheart.dev>',
+    host: 'live.smtp.mailtrap.io',
+    port: 587,
+    auth: {
+      user: 'api',
+      pass: process.env.NUXT_MAILTRAP_API,
+    },
+  },
   devtools: {
     enabled: true
   },
