@@ -2,7 +2,7 @@
 import { useMediaQuery, useElementVisibility } from "@vueuse/core";
 import { UColorModeSwitch } from '../../.nuxt/content/components';
 
-const isLargeScreen = useMediaQuery("(min-width: 780px)");
+const isLargeScreen = useMediaQuery("(min-width: 768px)");
 const links = [
   { label: "portfolio", to: "/" },
   { label: "currently", to: "/currently" },
@@ -39,22 +39,21 @@ const eeTarget = ref(null);
           variant="link"
           class="dark:text-gray-100 hover:dark:text-blue-200"
           to="/"
-          ><span class="font-mono md:text-xl sm:text-xs"
+          ><span class="font-mono lg:text-lg md:text-md sm:text-xs"
             >benjamin.goodheart.dev</span
           ></UButton
         >
-        
       </div>
       <div
         class="justify-self-end col-span-6"
         v-if="isLargeScreen === true"
         ref="ddTarget"
       >
-        <UNavigationMenu :items="links" class="font-mono"></UNavigationMenu>            
+        <UNavigationMenu :items="links" class="font-mono"></UNavigationMenu>
       </div>
-     
+
       <div
-        class="md:invisible sm:col-span-2 justify-self-end"
+        class="sm:col-span-2 justify-self-end"
         v-if="isLargeScreen === false"
         ref="eeTarget"
       >
@@ -66,7 +65,6 @@ const eeTarget = ref(null);
         </UDropdownMenu>
       </div>
     </div>
-
   </UContainer>
 </template>
 <style>

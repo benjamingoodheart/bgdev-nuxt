@@ -32,7 +32,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 <template>
   <UContainer class="grid grid-cols-5">
     <div class="col-span-1"></div>
-    <UCard class="col-span-3">
+    <div class="md:col-span-1 invisible"></div>
+    <UCard class="md:col-span-3 col-span-5">
       <div class="mb-5">
         <p class="text-sm">
           You can find me on
