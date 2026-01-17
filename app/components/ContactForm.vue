@@ -27,12 +27,15 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
     body: { email: state.email, name: state.name, message:state.message },
     })
   toast.add({ title: 'Success', description: 'The form has been submitted. Benjamin will get back to you ASAP', color: 'success' })
+  state.email = ''
+  state.name = ''
+  state.message = ''
 }
 </script>
 <template>
   <UContainer class="grid grid-cols-5">
-    <div class="col-span-1"></div>
-    <UCard class="col-span-3">
+    <div class="md:col-span-1 invisible"></div>
+    <UCard class="md:col-span-3 col-span-5">
       <div class="mb-5">
         <p class="text-sm">
           You can find me on
@@ -63,13 +66,13 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         @submit="onSubmit"
       >
         <UFormField label="Email" name="email" class="my-3">
-          <UInput v-model="state.email" class="w-full" />
+          <UInput v-model="state.email" class="w-full" placeholder='example@domain.com'/>
         </UFormField>
         <UFormField label="Name" name="name" class="my-3">
-          <UInput v-model="state.name" class="w-full" />
+          <UInput v-model="state.name" class="w-full" placeholder='FirstName LastName'/>
         </UFormField>
         <UFormField label="Message" name="message" class="my-3">
-          <UTextarea v-model="state.message" class="w-full" />
+          <UTextarea v-model="state.message" class="w-full" placeholder="What's on your mind?"/>
         </UFormField>
         <UButton type="submit" class="my-auto"> Submit </UButton>
       </UForm>
