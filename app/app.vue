@@ -25,10 +25,12 @@ useSeoMeta({
   twitterImage: 'https://benjamin.goodheart.dev/ogcard.png',
   twitterCard: 'summary_large_image'
 })
+
+const toaster = { position: 'bottom-center' }
 </script>
 
 <template>
-  <UApp>
+  <UApp :toaster="toaster">
    
 
     <UMain>
