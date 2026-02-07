@@ -5,13 +5,13 @@ description: What Benjamin is currently up to
 ----
 ## 📚 **READING** 
 
+*Tinker, Tailor, Soldier, Spy* by John le Carré
+
 *The Empusium* by Olga Tokarczuk
 
 *Fascist Yoga* by Stewart Home
 
 *The Fraud* by Zadie Smith
-
-*Ghenghis Khan and the Making of the Modern World* by Jack Weatherford
 
 
 --------------------------------
@@ -37,6 +37,8 @@ Blender3D
 ---
 ## 🎵 **LISTENING TO**
 
+*I Used To Go To This Bar* by Joyce Manor
+
 *Watch It Die* by Home Front
 
 *Through This Fire Across from Peter Balkan* by The Mountain Goats
@@ -51,7 +53,4 @@ Blender3D
 
 *Poetry From Pain* by Gridiron
 
-*Lonely People with Power* by Deafheaven
-
-*Idaho* by Ingrown
 
