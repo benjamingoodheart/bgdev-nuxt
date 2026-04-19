@@ -5,27 +5,20 @@ description: What Benjamin is currently up to
 ----
 ## 📚 **READING** 
 
+*Kangaroo Notebook* by Kōbō Abe
+
 *Tinker, Tailor, Soldier, Spy* by John le Carré
 
 *The Empusium* by Olga Tokarczuk
 
-*Fascist Yoga* by Stewart Home
-
-*The Fraud* by Zadie Smith
-
-
 --------------------------------
 ## 🎮 **PLAYING**
 
-*Warhammer 40k: Dawn of War - Winter Assault*
-
-*Age Of Empires II HD Edition (2013)* | Playing through Age of Kings campaign modes
+*Elden Ring*
 
 *Magic The Gathering (Draft, Pauper [[NYC League](https://decksandthecity.org){.link-class target=_blank}] )*
 
-*Half-Life 2*
-
-*Vampire Survivors*
+*Max Payne 1*
 
 
 ---
@@ -38,6 +31,10 @@ Blender3D
 
 ---
 ## 🎵 **LISTENING TO**
+
+*Exoterror* by Division of Mind
+
+*THE HORROR SHOW* by I Am The Avalanche
 
 *I Used To Go To This Bar* by Joyce Manor
 
