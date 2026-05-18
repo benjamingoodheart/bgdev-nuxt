@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/scripts',
     'nuxt-gtag',
-        'nuxt-nodemailer'
+    'nuxt-nodemailer',
+    '@nuxt/image',
   ],
   nodemailer: {
     from: '"Goodheart.dev" <hello@goodheart.dev>',

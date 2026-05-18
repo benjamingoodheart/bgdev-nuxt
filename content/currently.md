@@ -5,6 +5,8 @@ description: What Benjamin is currently up to
 ----
 ## 📚 **READING** 
 
+*Red Rising* by Pierce Brown
+
 *Kangaroo Notebook* by Kōbō Abe
 
 *Tinker, Tailor, Soldier, Spy* by John le Carré
@@ -18,19 +20,24 @@ description: What Benjamin is currently up to
 
 *Magic The Gathering (Draft, Pauper [[NYC League](https://decksandthecity.org){.link-class target=_blank}] )*
 
-*Max Payne 1*
 
 
 ---
 
 ## 📝 **LEARNING**
 
-Rust - Check out my first project [Mystic Seer here](https://github.com/benjamingoodheart/mystic-seer){.link-class target=_blank}!
+Rust - Check out my latest project [Scale Generator here](https://github.com/benjamingoodheart/scale_gen){.link-class target=_blank}!
 
 Blender3D
 
 ---
 ## 🎵 **LISTENING TO**
+
+*Still Suffer* by Terror
+
+*Beginning of the End* by Portrayal of Guilt
+
+*Angels with Filthy Souls* by BLUEHILLBILL, DeevoDaGenius, Kil The Artist
 
 *Exoterror* by Division of Mind
 
