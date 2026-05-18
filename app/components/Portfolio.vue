@@ -1,17 +1,30 @@
-import { UContainer } from '../../.nuxt/content/components';
+import { UContainer, UBadge } from '../../.nuxt/content/components';
 <script setup lang="js">
+const badgeKey = ref(null)
 const items = [
+    {
+    slot: 'data',
+    label: 'Scale Generator',
+    status: 'dev',
+    desc: 'Rust CLI application that suggests a random scale, and if you want, a random BPM as well',
+    stack: ["Rust", "Clap", "Inquire"],
+    demo: '/demos/scale_generator_demo.webp',
+    icons: ['mingcute:music-2-fill', 'mingcute:music-line','lucide:dices'],
+    link: 'https://github.com/benjamingoodheart/scale_gen'
+},
 {
     slot: 'data',
     label: 'River of Babel',
+    status: 'archived',
     desc: 'A web app that translates one music streaming source to another.',
     stack: ["Nuxt.js", "Vue", "Tailwind CSS", "Apple Music API", "Spotify API", "Vercel"],
     icons: ['mingcute:music-line', 'mingcute:transformation-line','mingcute:link-2-line'],
-    directLink: 'https://www.riverofbabel.app'
+    link: 'https://github.com/benjamingoodheart/river-of-babel'
 },
 {
     slot: 'data',
     label: 'My Portfolio Website',
+    status: 'dev',
     desc: 'I wanted to showcase my past work and at the same time learn a new framework (Nuxt). You are on the current production deployment right now!',
     stack: ['Nuxt.js', 'Vue', 'AWS Amplify', 'Tailwind CSS'],
     icons: ['mingcute:code-line', 'carbon:portfolio', 'mingcute:layout-5-line'],
@@ -20,6 +33,7 @@ const items = [
 {
     slot:'data',
     label: 'Mystic Seer',
+    status: 'no dev',
     desc: "A CLI app inspired by The Twilight Zone episode 'The Nick of Time'. Ask a yes or no question and find out your fortune. Implemented in Rust to learn more about the language. v0.2.0 released on 03/30/25 with colorized output!",
     stack: ["Rust"],
     demo:'/demos/mystic-seer.webp',
@@ -27,22 +41,14 @@ const items = [
     link: 'https://github.com/benjamingoodheart/mystic-seer'
 },{
     slot: 'data',
+    status: 'no dev',
     label: 'PDF Xtractor',
     desc: 'CLI utility to easy extract pdf tables contained within.',
     stack: ['Python', 'pdfplumber', 'pandas'],
     icons: ['material-symbols:picture-as-pdf-outline', 'svg-spinners:3-dots-fade', 'pixelarticons:table'],
     link: 'https://github.com/benjamingoodheart/xtractor',
     demo: '/demos/xtractor.webp'
-},
-{
-    slot: 'data',
-    label: '.csv->db Daemon',
-    desc: 'A client wanted to simulate drafting fantasy athletes using pre-existing data and a database, putting one row from the csv into the corresponding table once a day for a year. I wrote a script that achieved this. ',
-    stack: ['Python', 'Pandas', 'numpy'],
-    demo: '/demos/csvdaemon.webp',
-    icons: ['material-symbols:csv-outline-sharp', 'material-symbols:line-end-arrow-outline-rounded', 'material-symbols:database-outline'],
-    link: 'https://github.com/benjamingoodheart/stats-thru-year-sim'
-},]
+}]
 </script>
 <template>
     <UTabs :items="items">
@@ -58,6 +64,9 @@ const items = [
                 </div>
                 <USeparator class="my-4" />
                 <div>
+                            <UBadge v-show="item.status==='dev'" :key="badgeKey" variant="subtle">In Active Development</UBadge>
+                            <UBadge v-show="item.status==='archived'" :key="badgeKey" color="neutral" variant="subtle">Archived</UBadge>
+                            <UBadge v-show="item.status==='no dev'" :key="badgeKey" color="info" variant="subtle">Not Currently Being Developed</UBadge>
                     <h1 class="text-xl my-2">Description:</h1>
                     <p>{{ item.desc }}</p>
                     <h1 class="text-xl my-2">
