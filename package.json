@@ -36,7 +36,8 @@
     "nuxt-gtag": "4.1.0",
     "sqlite3": "^5.1.7",
     "tar": ">=7.5.11",
-    "valibot": ">=1.2.0"
+    "valibot": ">=1.2.0",
+      "@tootallnate/once": ">=3.0.1"
   },
   "devDependencies": {
     "@iconify-json/tabler": "^1.2.35",
@@ -57,7 +58,8 @@
     "tar": ">=7.5.11",
     "typescript": "^5.9.3",
     "valibot": ">=1.2.0",
-    "vue-tsc": "^3.1.0"
+    "vue-tsc": "^3.1.0",
+    "@tootallnate/once": ">=3.0.1"
   },
   "resolutions": {
     "unimport": "4.1.1",
