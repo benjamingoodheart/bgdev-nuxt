@@ -19,6 +19,8 @@
     "@nuxt/image": "^2.0.0",
     "@nuxt/scripts": "0.12.1",
     "@nuxt/ui": "^4.0.1",
+    "@nuxtjs/robots": "^6.0.8",
+    "@tootallnate/once": ">=3.0.1",
     "@unhead/vue": "^2.0.17",
     "better-sqlite3": "^12.10.0",
     "devalue": ">=5.8.1",
@@ -36,13 +38,13 @@
     "nuxt-gtag": "4.1.0",
     "sqlite3": "^5.1.7",
     "tar": ">=7.5.11",
-    "valibot": ">=1.2.0",
-      "@tootallnate/once": ">=3.0.1"
+    "valibot": ">=1.2.0"
   },
   "devDependencies": {
     "@iconify-json/tabler": "^1.2.35",
     "@isaacs/brace-expansion": ">=5.0.1",
     "@nuxt/eslint": "^1.9.0",
+    "@tootallnate/once": ">=3.0.1",
     "devalue": ">=5.8.1",
     "diff": ">=8.0.3",
     "eslint": "^9.37.0",
@@ -58,8 +60,7 @@
     "tar": ">=7.5.11",
     "typescript": "^5.9.3",
     "valibot": ">=1.2.0",
-    "vue-tsc": "^3.1.0",
-    "@tootallnate/once": ">=3.0.1"
+    "vue-tsc": "^3.1.0"
   },
   "resolutions": {
     "unimport": "4.1.1",
