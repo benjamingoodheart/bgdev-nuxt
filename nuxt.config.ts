@@ -8,7 +8,11 @@ export default defineNuxtConfig({
     'nuxt-gtag',
     'nuxt-nodemailer',
     '@nuxt/image',
+    '@nuxtjs/robots',
   ],
+  robots:{
+        blockAiBots: true
+  },
   nodemailer: {
     from: '"Goodheart.dev" <hello@goodheart.dev>',
     host: 'live.smtp.mailtrap.io',
