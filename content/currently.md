@@ -5,6 +5,8 @@ description: What Benjamin is currently up to
 ----
 ## 📚 **READING** 
 
+*...Please Kill Me* by Legs McNeil & Gillian McCain
+
 *Red Rising* by Pierce Brown
 
 *Kangaroo Notebook* by Kōbō Abe
@@ -33,6 +35,10 @@ Blender3D
 ---
 ## 🎵 **LISTENING TO**
 
+*Machine Hallucination* by L.O.T.I.O.N Multinational Corporation
+
+*you seem pretty sad for a girl so in love* by Olivia Rodrigo
+
 *Still Suffer* by Terror
 
 *Beginning of the End* by Portrayal of Guilt
@@ -49,14 +55,5 @@ Blender3D
 
 *Through This Fire Across from Peter Balkan* by The Mountain Goats
 
-*Mercy* by Armand Hammer & The Alchemist
-
-*Internet* by soccer.
-
-*Patient Zero* by Souvenir Noir
-
-*Highway To The End* by Dark Thoughts
-
-*Poetry From Pain* by Gridiron
 
 

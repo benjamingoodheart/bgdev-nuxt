@@ -14,7 +14,7 @@ useSeoMeta({
 <UContainer>
     <UCard class="mx-auto min-w-2 md:max-w-fit sm:max-w-80">
       <h1 class="text-xl text-center my-2"><i>{{currently.title}}</i></h1>
-      <subtitle class="text-xs">{{currently.description}}</subtitle>
+      <p class="text-xs">{{currently.description}}</p>
     <ContentRenderer v-if="currently" :value="currently" />
   <div v-else>Currently not found</div>
 </UCard>
