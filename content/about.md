@@ -6,4 +6,4 @@ seo:
     description: who is benjamin goodheart? what's his deal?
 ---
 
-Benjamin Goodheart is a multi-disciplinary artist and programmer. He plays music, [takes photos](https://photo.goodheart.dev){.link-class target=_blank} and does whatever else piques his interest. You can read his [technical blog here](https://watitdo.dev){.link-class target="_blank"}. Benjamin lives in Manhattan with his wife, Christina and his dog.
+Benjamin Goodheart is a multi-disciplinary artist and programmer. He plays [music](https://hellscreen.bandcamp.com/){.link-class target=_blank}, [takes photos](https://photo.goodheart.dev){.link-class target=_blank} and does whatever else piques his interest. You can read his [technical blog here](https://watitdo.dev){.link-class target="_blank"}. Benjamin lives in Manhattan with his wife, Christina and his dog.
