@@ -5,6 +5,8 @@ description: What Benjamin is currently up to
 ----
 ## 📚 **READING** 
 
+*The Constant Gardener* by John le Carré
+
 *Creation Lake* by Rachel Kushner
 
 *...Please Kill Me* by Legs McNeil & Gillian McCain
@@ -13,17 +15,12 @@ description: What Benjamin is currently up to
 
 *Kangaroo Notebook* by Kōbō Abe
 
-*Tinker, Tailor, Soldier, Spy* by John le Carré
-
-*The Empusium* by Olga Tokarczuk
-
 --------------------------------
 ## 🎮 **PLAYING**
 
 *Elden Ring*
 
 *Magic The Gathering (Draft, Pauper [[NYC League](https://decksandthecity.org){.link-class target=_blank}] )*
-
 
 
 ---
@@ -46,10 +43,14 @@ description: What Benjamin is currently up to
 
 Rust - Check out my latest project [Scale Generator here](https://github.com/benjamingoodheart/scale_gen){.link-class target=_blank}!
 
+Analog Music Hardware - **Roland Aria T-8**, **Roland Aria P-6**, **Beringer Pro VS Mini**
+
 Blender3D
 
 ---
 ## 🎵 **LISTENING TO**
+
+*M.O.B* by Payroll Giovanni
 
 *Dream World* by Dream World
 
@@ -68,9 +69,3 @@ Blender3D
 *THE HORROR SHOW* by I Am The Avalanche
 
 *I Used To Go To This Bar* by Joyce Manor
-
-*Watch It Die* by Home Front
-
-*Through This Fire Across from Peter Balkan* by The Mountain Goats
-
-
