@@ -6,8 +6,7 @@ This is the open source code for my personal developent website. It is built on 
 clone https://github.com/benjamingoodheart/bgdev-nuxt.git
 cd bgdev-nuxt
 npm i 
-npm update && npm upgrade
-npm run build
+npm run dev
 ```
 
 To build
