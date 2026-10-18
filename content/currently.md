@@ -5,6 +5,10 @@ description: What Benjamin is currently up to
 ----
 ## 📚 **READING** 
 
+*What We Talk About When We Talk About Love* by Raymond Carver
+
+*Golden Son* by Pierce Brown
+
 *The Constant Gardener* by John le Carré
 
 *Creation Lake* by Rachel Kushner
@@ -49,6 +53,12 @@ Blender3D
 
 ---
 ## 🎵 **LISTENING TO**
+
+*Tell Me Your Dream* by Ceremony
+
+*Sinking Deeper Into Madness* by Brain Tourniquet
+
+*B.I.L.L.Y (I & II)* by Mickey Diamond
 
 *M.O.B* by Payroll Giovanni
 
