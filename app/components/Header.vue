@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useMediaQuery, useElementVisibility } from "@vueuse/core";
-import { UColorModeSwitch } from '../../.nuxt/content/components';
+
 
 const isLargeScreen = useMediaQuery("(min-width: 768px)");
 const links = [
