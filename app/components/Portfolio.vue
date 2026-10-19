@@ -1,4 +1,3 @@
-import { UContainer, UBadge } from '../../.nuxt/content/components';
 <script setup lang="js">
 const badgeKey = ref(null)
 const items = [
@@ -78,8 +77,8 @@ const items = [
                     </ul>
                     <div v-if="item.demo">
                     <h1 class="text-xl my-2">Demo:</h1>
-                        <img alt='Demo .gif' :src="item.demo" style="box-shadow: .1vw .1vh .1vw;"
-                            class="mx-auto my-3 rounded-xl md:object-cover sm:min-w-full sm:min-h-full" loading="lazy" ></img>
+                        <img alt='Demo .gif' :src="item.demo" style="box-shadow: .1vw .1vh .1vw;" 
+                            class="demo-gif mx-auto my-3 rounded-xl" loading="lazy" ></img>
                     </div>
                     <div v-if="item.link" class="text-center">
                         <UButton size="xs" icon="mingcute:github-line"
@@ -98,3 +97,16 @@ const items = [
         </template>
     </UTabs>
 </template>
+<style>
+@media (min-width: 840px){
+.demo-gif{
+    width:30vw;
+    transition:width .5s ease-in-out;
+}
+.demo-gif:hover{
+    width:70vw;
+    transition:width .5s ease-in-out;
+}
+}
+
+</style>
