@@ -37,6 +37,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
     <div class="md:col-span-1 invisible"></div>
     <UCard class="md:col-span-3 col-span-5">
       <div class="mb-5">
+         <h1 class="text-xl text-center my-2"><i>contact</i></h1>
         <p class="text-md mb-2"> Would you like to work together? I am available for small to medium scale freelance programming projects. If you want boutique, well thought-out, and human written code hit me up! Let's discuss your project and we can go from there. </p>
         <p class="text-md">
           Work-inquiry or otherwise, you can find me on

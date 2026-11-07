@@ -7,14 +7,14 @@ const links = [
   { label: "portfolio", to: "/" },
   { label: "currently", to: "/currently" },
   { label: "about", to: "/about" },
-  { label: "work/contact", to: "contact" },
+  { label: "contact", to: "contact" },
 ];
 const dropdownItems = [
   [
     { label: "portfolio", to: "/" },
     { label: "currently", to: "/currently" },
     { label: "about", to: "/about" },
-    { label: "work/contact", to: "/contact" },
+    { label: "contact", to: "/contact" },
   ],
 ];
 const ddTarget = ref(null);
