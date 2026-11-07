@@ -37,20 +37,22 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
     <div class="md:col-span-1 invisible"></div>
     <UCard class="md:col-span-3 col-span-5">
       <div class="mb-5">
-        <p class="text-sm">
-          You can find me on
+        <p class="text-md mb-2"> Would you like to work together? I am available for small to medium scale freelance programming projects. If you want boutique, well thought-out, and human written code hit me up! Let's discuss your project and we can go from there. </p>
+        <p class="text-md">
+          Work-inquiry or otherwise, you can find me on
           <UButton
             to="https://github.com/benjamingoodheart"
             size="xs"
             variant="outline"
             icon="mingcute:github-line"
             target="_blank"
+            class="mx-1"
             >Github</UButton
           >
           and
           <UButton
             to="https://www.linkedin.com/in/bengoodheart/"
-            class="hover:text-primary-300 mr-1"
+            class="hover:text-primary-300 mr-1 mx-1"
             variant="outline"
             size="xs"
             icon="tabler:brand-linkedin"
