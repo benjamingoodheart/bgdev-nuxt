@@ -1,7 +1,7 @@
 <script setup lang="js">
 useSeoMeta({
-  title: 'contact | bgd',
-  ogTitle: 'contact | benjamin goodheart development',
+  title: 'want to work together? | bgd',
+  ogTitle: 'want to work together? | benjamin goodheart development',
   ogImage: 'https://benjamin.goodheart.dev/ogcard.png',
   description: "Contact Benjamin",
   ogDescription: "Contact Benjamin",
